@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Explain Var, Let and Const</h1>
+    <ul>
+        <h3 style="text-decoration: underline; color: red;">Var:</h3>
+        <li>Var is a functional as well as Global Scope</li>
+        <li>Var can be reinitialized and redeclared</li>
+        <li>var can be modified later</li>
+    </ul>
+
+    <ul>
+        <h3 style="text-decoration: underline; color: red;">Let:</h3>
+        <li>Let is a Block Scope</li>
+        <li>Let cannot be reinitialized and redeclared</li>
+        <li>Let can be modified later</li>
+    </ul>
+
+    <ul>
+        <h3 style="text-decoration: underline; color: red;">Const:</h3>
+        <li>Const is a Block Scope</li>
+        <li>Const cannot be reinitialized and redeclared</li>
+        <li>Const cannot be modified later</li>
+    </ul>
+    <h1>What is Hoisting?</h1>
+    <p>Hoising is a phenemenon by which we can access vaiables and functions even before we initialize it.In case of var it is undefined but in case of let and const it throws a Reference Error.</p>
+
+    <h1>What is Temporal Dead Zone?</h1>
+    <p>It is the time between the hoisting and the initialization of variables. Even let and const are hoisted but they are in different space called Temporal Dead Zone.</p>
+</body>
+</html>
